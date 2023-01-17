@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="css/fontawesome/css/all.min.css"/>
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="task-input">
+                <i class="fa-solid fa-bars-staggered fa-2x"></i>
+                <input type="text" placeholder="Yeni bir görev ekle">
+            </div>
+        </div>
+        <div class="row">
+            <div class="controls">
+                <div class="filters">
+                    <span id="all" class="active">Hepsi</span>
+                    <span id="pending">Bekleyen</span>
+                    <span id="completed">Tamamlanan</span>
+                </div>
+                <button class="clear-btn">Seçilenleri Sil</button>
+            </div>
+        </div>
+        <div class="row">
+            <ul class="task-box1">
+                <li class="col-2">Seç</li>
+                <li class="col-3">Yeni Görev</li>
+                <li class="col-5">Güncelle</li>
+                <li class="col-6">Sil</li>
+            </ul>
+            <ul class="task-box">
+                <!-- <li class="task">
+                    <ul>
+                        <li class="col-2"><label for="1"><input type="checkbox" id="1"></label></li>
+                        <li class="col-3"><p>spor salonu üyeliğini yenileme</p></li>
+                        <li class="col-5"><i class="fa-solid fa-pen fa-1x"></i></li>
+                        <li class="col-6"><i class="fa-solid fa-trash"></i></li>
+                    </ul>
+                </li>
+                <li class="task">
+                    <ul>
+                        <li class="col-2"><label for="1"><input type="checkbox" id="1"></label></li>
+                        <li class="col-3"> <p>spor salonu üyeliğini yenileme</p></li>
+                        <li class="col-5"><i class="fa-solid fa-pen"></i></li>
+                        <li class="col-6"><i class="fa-solid fa-trash"></i></li>
+                    </ul>
+                </li> -->
+            </ul>
+        </div>
+    </div>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
